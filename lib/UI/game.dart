@@ -14,16 +14,16 @@ class MemoryGame extends StatefulWidget {
 }
 
 class _MemoryGameState extends State<MemoryGame> {
-  // Définir les niveaux du jeu avec le nombre d'images dans chaque niveau
+  // Définir les niveaux du jeu avec le nombre d'assets dans chaque niveau
   List<List<Item>> levels = [
     [
-      Item("images/kaneki.png"),
-      Item("images/toka.png"),
+      Item("assets/kaneki.png"),
+      Item("assets/toka.png"),
     ],
     [
-      Item("images/shanks.png"),
-      Item("images/nami.png"),
-      Item("images/luffy.png"),
+      Item("assets/shanks.png"),
+      Item("assets/nami.png"),
+      Item("assets/luffy.png"),
     ],
 
   ];
