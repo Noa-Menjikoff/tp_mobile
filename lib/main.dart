@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:sqflite/sqflite.dart';
-import 'UI/DatabaseHelper.dart';
-import 'UI/home.dart';
+import 'BD/DatabaseHelper.dart';
+import 'UI/homePage.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
